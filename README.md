@@ -16,20 +16,6 @@ A chatbot that helps students instantly fetch their **class timetables** via **W
 
 ---
 
-## 📸 Screenshots
-### 🌐 Web Interface
-![Web Interface](images/web-interface.png)
-
-### 💬 WhatsApp Interface
-![WhatsApp Interface](images/whatsapp-interface.png)
-
-### 💬 Telegram Interface
-![Telegram Interface](images/telegram-interface.png)
-
-> 💡 Make sure to replace the image paths with your uploaded images in the `/images` folder.
-
----
-
 ## 🛠 Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Botpress API
