@@ -1,0 +1,164 @@
+/* General Reset and Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #4e54c8, #8f94fb);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Wrapper */
+#wrapper {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 90%;
+    max-width: 900px;
+    margin: 20px;
+}
+
+/* Header Section */
+#header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#header_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  /* Center both horizontally and vertically */
+    width: 100%;
+}
+
+#header_text h1 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#header_text h2 {
+    font-size: 16px;
+    margin: 5px 0 0;
+    opacity: 0.9;
+}
+
+
+/* Main Content Section */
+#main_content {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #4e54c8;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    color: #4e54c8;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Links */
+a {
+    color: #4e54c8;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Badges */
+.badge {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #d9534f;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.badge.green {
+    background-color: #5cb85c;
+}
+
+/* Footer Section */
+#footer {
+    text-align: center;
+    background: #4e54c8;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #header img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #header_text h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #header_text h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+
+    #footer {
+        font-size: 12px;
+    }
+}
